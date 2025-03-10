@@ -1,0 +1,410 @@
+{
+  "timestamp": "2025-03-10T06:21:57.624283",
+  "system_info": {
+    "python_version": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "darwin"
+  },
+  "concurrent_test": {
+    "test_type": "concurrent_cancel",
+    "start_time": 1741612917.624331,
+    "duration": 0.4434680938720703,
+    "num_attempts": 5,
+    "results": [
+      {
+        "seat_id": "A1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612918.0648892
+      },
+      {
+        "seat_id": "A1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612917.8754282
+      },
+      {
+        "seat_id": "A2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612917.8166568
+      },
+      {
+        "seat_id": "A0",
+        "seat_num": 2,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612917.839432
+      },
+      {
+        "seat_id": "A0",
+        "seat_num": 2,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612918.066968
+      }
+    ]
+  },
+  "stress_test": {
+    "test_type": "stress_test",
+    "start_time": 1741612918.067965,
+    "duration": 5.392409086227417,
+    "attempts": 50,
+    "successes": 21,
+    "failures": 29,
+    "results": [
+      {
+        "seat_id": "A2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612919.529941
+      },
+      {
+        "seat_id": "B0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612919.443241
+      },
+      {
+        "seat_id": "G7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.156189
+      },
+      {
+        "seat_id": "Q7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612918.774337
+      },
+      {
+        "seat_id": "A1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612918.690618
+      },
+      {
+        "seat_id": "A2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612923.155478
+      },
+      {
+        "seat_id": "N4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612920.6534069
+      },
+      {
+        "seat_id": "S1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612920.226933
+      },
+      {
+        "seat_id": "F4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612922.8579562
+      },
+      {
+        "seat_id": "J3",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.5421782
+      },
+      {
+        "seat_id": "G7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612919.405059
+      },
+      {
+        "seat_id": "J1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612919.743676
+      },
+      {
+        "seat_id": "M5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612921.4142349
+      },
+      {
+        "seat_id": "I2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612920.0624
+      },
+      {
+        "seat_id": "E7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.440196
+      },
+      {
+        "seat_id": "G0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612918.871285
+      },
+      {
+        "seat_id": "C7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612923.459046
+      },
+      {
+        "seat_id": "R0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.747905
+      },
+      {
+        "seat_id": "S2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612918.517096
+      },
+      {
+        "seat_id": "Q5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.890083
+      },
+      {
+        "seat_id": "S1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612920.59406
+      },
+      {
+        "seat_id": "A5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.75845
+      },
+      {
+        "seat_id": "H7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612923.061055
+      },
+      {
+        "seat_id": "K2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612920.500577
+      },
+      {
+        "seat_id": "M3",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612919.2174132
+      },
+      {
+        "seat_id": "P5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612921.965802
+      },
+      {
+        "seat_id": "P3",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612920.648903
+      },
+      {
+        "seat_id": "J4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612921.312736
+      },
+      {
+        "seat_id": "E2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612918.52937
+      },
+      {
+        "seat_id": "P3",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.956862
+      },
+      {
+        "seat_id": "F2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.61791
+      },
+      {
+        "seat_id": "P5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612920.6191301
+      },
+      {
+        "seat_id": "K5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.6770701
+      },
+      {
+        "seat_id": "N5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612921.196469
+      },
+      {
+        "seat_id": "D4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.973193
+      },
+      {
+        "seat_id": "E3",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612919.7208781
+      },
+      {
+        "seat_id": "T1",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.5693812
+      },
+      {
+        "seat_id": "O5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.633651
+      },
+      {
+        "seat_id": "B4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612921.6950872
+      },
+      {
+        "seat_id": "A0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.239796
+      },
+      {
+        "seat_id": "E7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612921.768159
+      },
+      {
+        "seat_id": "E2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.224121
+      },
+      {
+        "seat_id": "K5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.306804
+      },
+      {
+        "seat_id": "L6",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612921.202027
+      },
+      {
+        "seat_id": "P2",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "SUCCESS",
+        "timestamp": 1741612922.472121
+      },
+      {
+        "seat_id": "P5",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612923.0695739
+      },
+      {
+        "seat_id": "O7",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.944842
+      },
+      {
+        "seat_id": "H4",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.369258
+      },
+      {
+        "seat_id": "Q0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612922.575347
+      },
+      {
+        "seat_id": "G0",
+        "seat_num": 1,
+        "return_code": 0,
+        "output": "FAIL",
+        "timestamp": 1741612923.080669
+      }
+    ]
+  }
+}

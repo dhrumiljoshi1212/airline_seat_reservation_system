@@ -1,0 +1,22 @@
+# pyproject.toml
+[tool.poetry]
+name = "airline_reservation"
+version = "0.1.0"
+description = "A modular airline reservation system"
+authors = ["Dhrumil Chetankumar Joshi <dhrumil.joshi.12.12@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "*"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+portalocker = "^2.0.0"
+coverage = "^7.6.12"
+
+[tool.poetry.scripts]
+airline = "main:main"
+concurrent_booking_test = "tests.integration.concurrent_booking_test:main"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

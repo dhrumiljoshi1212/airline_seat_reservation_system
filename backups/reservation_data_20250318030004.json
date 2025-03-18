@@ -1,0 +1,46 @@
+{
+  "reservations": {
+    "ef2b750b-fa84-4f4c-a1c8-5555dc693644": {
+      "id": "ef2b750b-fa84-4f4c-a1c8-5555dc693644",
+      "seats": [
+        "G3 (middle)"
+      ],
+      "timestamp": "2025-03-10T06:21:31.855950"
+    },
+    "c9e0d3ae-a871-4988-9cc2-da054b74032f": {
+      "id": "c9e0d3ae-a871-4988-9cc2-da054b74032f",
+      "seats": [
+        "B5 (aisle)"
+      ],
+      "timestamp": "2025-03-10T06:21:32.278418"
+    },
+    "43cddd7f-13d4-4cc6-8e41-2f3152f4d415": {
+      "id": "43cddd7f-13d4-4cc6-8e41-2f3152f4d415",
+      "seats": [
+        "K6 (aisle)"
+      ],
+      "timestamp": "2025-03-10T06:21:32.457279"
+    },
+    "b1453152-1ef8-4729-8dc2-cc0a81dcd5ba": {
+      "id": "b1453152-1ef8-4729-8dc2-cc0a81dcd5ba",
+      "seats": [
+        "H0 (window)"
+      ],
+      "timestamp": "2025-03-10T06:21:32.952944"
+    },
+    "7cf57644-15da-4500-b797-82f705274c63": {
+      "id": "7cf57644-15da-4500-b797-82f705274c63",
+      "seats": [
+        "A0 (window)"
+      ],
+      "timestamp": "2025-03-10T06:31:09.129274"
+    }
+  },
+  "seat_index": {
+    "G3 (middle)": "ef2b750b-fa84-4f4c-a1c8-5555dc693644",
+    "B5 (aisle)": "c9e0d3ae-a871-4988-9cc2-da054b74032f",
+    "K6 (aisle)": "43cddd7f-13d4-4cc6-8e41-2f3152f4d415",
+    "H0 (window)": "b1453152-1ef8-4729-8dc2-cc0a81dcd5ba",
+    "A0 (window)": "7cf57644-15da-4500-b797-82f705274c63"
+  }
+}
